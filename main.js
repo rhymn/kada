@@ -1,5 +1,3 @@
-'use strict';
-
 let type = function(strings, cb) {
     let scroll = function() {
         var elem = document.getElementById('content');
@@ -37,7 +35,6 @@ let type = function(strings, cb) {
     }).tiType(strings[0].trim());
     
 }
-
 
 let typeElement = function(id) {
     $("#content pre:last-child").remove()
