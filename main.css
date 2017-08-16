@@ -2,6 +2,7 @@ body {
     background-image: url("img/andrik-langfield-petrides-229183.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -36,6 +37,13 @@ span {
   overflow: hidden;
   padding-bottom: 10px;
   position: relative;
+}
+@media(max-width: 768px) {
+   .window {
+        margin-top: 5vh;
+        width: 90vw;
+        height: 90vh;
+   } 
 }
 
 .titlebar {
@@ -172,6 +180,10 @@ pre {
 #content a {
     color: green;
     text-decoration: underline;
+}
+
+#content pre {
+    white-space: pre-wrap !important;
 }
 /* window END */
 
