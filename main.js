@@ -58,7 +58,7 @@ let typeElement = function(id) {
     );
     let img = el.getAttribute('bgimg');
     if(img) {
-        $("body").css('background-image','url("' + img + '")')
+        $("html").css('background-image','url("' + img + '")')
     }
     
 }
